@@ -20,21 +20,22 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
     tmp = *head;
     i = 0;
 
-    // traverse to the node to delete
+    /* traverse to the node to delete */
     while (tmp && i < index)
     {
         tmp = tmp->next;
         i++;
     }
 
-    if (!tmp) // index out of range
+    /* index out of range */
+    if (!tmp)
         return (-1);
 
-    // fix prev/next links
+    /* fix prev/next links */
     if (tmp->prev)
         tmp->prev->next = tmp->next;
     else
-        *head = tmp->next; // deleting head
+        *head = tmp->next; /* deleting head */
 
     if (tmp->next)
         tmp->next->prev = tmp->prev;
@@ -42,4 +43,3 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
     free(tmp);
     return (1);
 }
-
