@@ -1,0 +1,6 @@
+https://github.com/hs-hq/0x00-Fix_My_Code_Challenge
+https://github.com/hs-hq/0x00-Fix_My_Code_Challenge/blob/main/0-fizzbuzz.py
+https://github.com/hs-hq/0x00-Fix_My_Code_Challenge/blob/main/1-print_square.js
+https://github.com/hs-hq/0x00-Fix_My_Code_Challenge/blob/main/2-sort.rb
+https://github.com/hs-hq/0x00-Fix_My_Code_Challenge/blob/main/3-user.py
+https://github.com/hs-hq/0x00-Fix_My_Code_Challenge/tree/main/4-delete_dnodeint
